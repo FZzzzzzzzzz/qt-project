@@ -1,10 +1,10 @@
 debug/adventuremenu.o
+debug/cpath.o
+debug/cpoint.o
 debug/gauntmenu.o
 debug/main.o
 debug/menu.o
-debug/optionmenu.o
 debug/qrc_images.o
 debug/moc_adventuremenu.o
 debug/moc_gauntmenu.o
 debug/moc_menu.o
-debug/moc_optionmenu.o

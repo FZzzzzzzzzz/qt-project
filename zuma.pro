@@ -10,12 +10,16 @@ CONFIG += c++17
 
 SOURCES += \
     adventuremenu.cpp \
+    cpath.cpp \
+    cpoint.cpp \
     gauntmenu.cpp \
     main.cpp \
     menu.cpp
 
 HEADERS += \
     adventuremenu.h \
+    cpath.h \
+    cpoint.h \
     gauntmenu.h \
     menu.h
 
