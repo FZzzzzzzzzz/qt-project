@@ -1,6 +1,6 @@
 #include "cpoint.h"
 
-Cpoint::Cpoint()
+cPoint::cPoint()
 {
 
 }

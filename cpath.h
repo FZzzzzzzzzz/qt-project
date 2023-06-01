@@ -7,11 +7,11 @@
 using namespace std;
 
 
-class Cpath
+class cPath
 {
 public:
-    vector<Cpoint> importantPoints;
-    vector<Cpoint> inpathPoints;
+    vector<cPoint> importantPoints;
+    vector<cPoint> inpathPoints;
     float space;
 
     void getAllPoints(){//创建折线轨迹并将轨迹点录入inpathPoints
@@ -23,11 +23,11 @@ public:
             for (int j = 0; j < n; ++j) {
                 float tmp_x = importantPoints[i].x+delta_x*j/n;
                 float tmp_y = importantPoints[i].y+delta_y*j/n;
-                inpathPoints.push_back(Cpoint(tmp_x,tmp_y));
+                inpathPoints.push_back(cPoint(tmp_x,tmp_y));
             }
         }
     }
-    Cpath();
+    cPath();
 };
 
 #endif // CPATH_H

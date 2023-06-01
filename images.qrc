@@ -250,5 +250,9 @@
         <file>processed/btnGauntMenu_2.png</file>
         <file>processed/GauntSunGem.png</file>
         <file>processed/OptionBox.png</file>
+        <file>processed/background_level1.jpg</file>
+        <file>processed/menubar.png</file>
+        <file>processed/btnMenubar_1.jpg</file>
+        <file>processed/btnMenubar_2.jpg</file>
     </qresource>
 </RCC>

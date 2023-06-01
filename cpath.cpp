@@ -1,6 +1,6 @@
 #include "cpath.h"
 
-Cpath::Cpath()
+cPath::cPath()
 {
 
 }

@@ -4,14 +4,13 @@
 using namespace std;
 
 
-class Cpoint
+class cPoint
 {
 public:
-    Cpoint();
-    ~Cpoint();
+    cPoint();
     float x;
     float y;
-    Cpoint(float xx,float yy):x(xx),y(yy){}
+    cPoint(float xx,float yy):x(xx),y(yy){}
 };
 
 #endif // CPOINT_H

@@ -1,10 +1,14 @@
 release/adventuremenu.o
+release/cball.o
+release/cfrog.o
 release/cpath.o
 release/cpoint.o
 release/gauntmenu.o
+release/level1.o
 release/main.o
 release/menu.o
 release/qrc_images.o
 release/moc_adventuremenu.o
 release/moc_gauntmenu.o
+release/moc_level1.o
 release/moc_menu.o

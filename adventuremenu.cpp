@@ -4,6 +4,7 @@
 #include "qpixmap.h"
 #include "qbitmap.h"
 #include "qpalette.h"
+#include "level1.h"
 
 AdventureMenu::AdventureMenu(QWidget *parent) :
     QWidget(parent),
@@ -63,10 +64,13 @@ void AdventureMenu::on_advPlayButton_pressed()
 void AdventureMenu::on_advPlayButton_released()
 {
     ui->advPlayButton->setStyleSheet("background: transparent;background-image: url(:processed/advplaybutton_1.jpg);");
-//    if(flagA1==1)
-//   {
-//       进入游戏界面
-//    }
+    if(flagA1==1)
+   {
+        level1* l1;
+        l1 = new level1;
+        l1->show();
+        close();
+   }
 }
 
 

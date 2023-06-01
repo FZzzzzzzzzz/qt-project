@@ -10,22 +10,29 @@ CONFIG += c++17
 
 SOURCES += \
     adventuremenu.cpp \
+    cball.cpp \
+    cfrog.cpp \
     cpath.cpp \
     cpoint.cpp \
     gauntmenu.cpp \
+    level1.cpp \
     main.cpp \
     menu.cpp
 
 HEADERS += \
     adventuremenu.h \
+    cball.h \
+    cfrog.h \
     cpath.h \
     cpoint.h \
     gauntmenu.h \
+    level1.h \
     menu.h
 
 FORMS += \
     adventuremenu.ui \
     gauntmenu.ui \
+    level1.ui \
     menu.ui
 
 # Default rules for deployment.
