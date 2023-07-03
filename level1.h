@@ -11,6 +11,10 @@ class level1 : public QWidget
 {
     Q_OBJECT
 
+protected:
+
+    bool eventFilter(QObject *watched, QEvent *event);
+
 public:
     explicit level1(QWidget *parent = nullptr);
     ~level1();

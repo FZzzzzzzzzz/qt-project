@@ -1,7 +1,5 @@
 #ifndef CFROG_H
 #define CFROG_H
-#include <bits/stdc++.h>
-#include <windows.h>
 #include <qwidget.h>
 #include "cpoint.h"
 #include "cball.h"

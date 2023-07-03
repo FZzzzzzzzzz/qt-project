@@ -25,6 +25,9 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">#level1{background-image: url(:/processed/background_level1.jpg);}</string>
+  </property>
   <widget class="QFrame" name="frame1">
    <property name="geometry">
     <rect>
@@ -35,7 +38,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">#frame1{background-image: url(:/processed/background_level1.jpg);}</string>
+    <string notr="true">#frame1{border-image: url(:/processed/backgroundLevel1_full.png);}</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::StyledPanel</enum>
@@ -46,14 +49,14 @@
    <widget class="QFrame" name="frame_2">
     <property name="geometry">
      <rect>
-      <x>-1</x>
-      <y>-1</y>
-      <width>641</width>
-      <height>481</height>
+      <x>0</x>
+      <y>0</y>
+      <width>640</width>
+      <height>480</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">#frame_2{background-image: url(:/processed/menubar.png);}</string>
+     <string notr="true"/>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -68,6 +71,32 @@
        <y>0</y>
        <width>80</width>
        <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="sunCover">
+     <property name="geometry">
+      <rect>
+       <x>72</x>
+       <y>190</y>
+       <width>21</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="sunFace">
+     <property name="geometry">
+      <rect>
+       <x>72</x>
+       <y>190</y>
+       <width>21</width>
+       <height>20</height>
       </rect>
      </property>
      <property name="text">

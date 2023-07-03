@@ -138,14 +138,17 @@ compiler_rcc_clean:
 	-$(DEL_FILE) release\qrc_images.cpp
 release/qrc_images.cpp: images.qrc \
 		E:/Qt/6.5.1/mingw_64/bin/rcc.exe \
+		processed/icon1.png \
 		processed/btnA1_2.png \
 		processed/btnGauntMenu_1.png \
 		processed/mmGAUNTLETBUTTON_preview_rev_1.png \
 		processed/mmAdventureMenu_Fixed.png \
 		processed/gauntscreen.jpg \
+		processed/backgroundLevel1_full.png \
 		processed/mmeyeright_preview_rev_1.png \
 		processed/btnMenubar_2.jpg \
 		processed/mmQUITBUTTON_preview_rev_1.png \
+		processed/sunCover.png \
 		processed/btnA1_1.png \
 		processed/menubar.png \
 		processed/mmOPTIONSBUTTON_preview_rev_1.png \
@@ -158,240 +161,21 @@ release/qrc_images.cpp: images.qrc \
 		processed/mmOPTIONSBUTTON_preview_rev_3.png \
 		processed/mmARCADEBUTTON_preview_rev_1.png \
 		processed/mmQUITBUTTON_preview_rev_2.png \
+		processed/sunFace_2.png \
+		processed/mmscreen.jpg \
 		processed/advplaybutton_1.jpg \
 		processed/mmMOREGAMESBUTTON_preview_rev_1.png \
+		processed/sunFace_3.png \
+		processed/frog.png \
 		processed/btnGauntMenu_2.png \
+		processed/sunFace_1.png \
 		processed/mmOPTIONSBUTTON_preview_rev_2.png \
 		processed/mmARCADEBUTTON_preview_rev_2.png \
 		processed/advmainmenubutton_2.jpg \
 		processed/advplaybutton_2.jpg \
 		processed/mmMOREGAMESBUTTON_preview_rev_2.png \
 		processed/GauntSunGem.png \
-		../../images/advdoor3B.jpg \
-		../../images/sparkle.gif \
-		../../images/baAccuracyPurple.gif \
-		../../images/_ballshadow.gif \
-		../../images/_checkBUtton.gif \
-		../../images/MenuButton.jpg \
-		../../images/_advmiddle.gif \
-		../../images/baLightBlue.gif \
-		../../images/gauntscreen.jpg \
-		../../images/_toadlives.gif \
-		../../images/_mmUFO.gif \
-		../../images/baAccuracyRed.gif \
-		../../images/baAccuracyWhite.gif \
-		../../images/mmGAUNTLETBUTTON.jpg \
-		../../images/levlock_playlabel_.gif \
-		../../images/gauge.gif \
-		../../images/GauntDoor1.jpg \
-		../../images/mmMOREGAMESBUTTON.jpg \
-		../../images/_advdoor1B.gif \
-		../../images/baAccuracyBlue.gif \
-		../../images/_GauntScreen.gif \
-		../../images/baLightPurple.gif \
-		../../images/mmhat.jpg \
-		../../images/_advtemple3v.gif \
-		../../images/COIN.gif \
-		../../images/advplaybutton.jpg \
-		../../images/cursor_dragging.gif \
-		../../images/dialogbox.jpg \
-		../../images/ToadLives.gif \
-		../../images/baBombGreen.gif \
-		../../images/GodHead.gif \
-		../../images/_hatchback.gif \
-		../../images/_advtemple4.gif \
-		../../images/_advdoor3A.gif \
-		../../images/baDotz.gif \
-		../../images/baBombYellow.gif \
-		../../images/GauntEagleGem.gif \
-		../../images/_GauntBackButton.gif \
-		../../images/advdoor4A.jpg \
-		../../images/Tongue.gif \
-		../../images/baBallWhite.gif \
-		../../images/baSlowGreen.gif \
-		../../images/adscreen_maxbutton.png \
-		../../images/checkBUtton.gif \
-		../../images/GauntJaguarGem.gif \
-		../../images/_GodHead.gif \
-		../../images/_baAccuracyLight.gif \
-		../../images/_mmsun.gif \
-		../../images/GauntMainMenuButton.jpg \
-		../../images/_advplaybutton.gif \
-		../../images/advdoor4C.jpg \
-		../../images/gauntsurvivalbutton.jpg \
-		../../images/baBombPurple.gif \
-		../../images/advdoor2B.jpg \
-		../../images/baLightYellow.gif \
-		../../images/Menubar.jpg \
-		../../images/_advtemple2.gif \
-		../../images/_baLight.gif \
-		../../images/happyending.jpg \
-		../../images/mmeyeright.gif \
-		../../images/_mmARCADEBUTTON.jpg \
-		../../images/_mmOPTIONSBUTTON.gif \
-		../../images/advdoor3A.jpg \
-		../../images/baBallGreen.gif \
-		../../images/GauntDoor4.jpg \
-		../../images/_Dialogbutton.gif \
-		../../images/_advdoor1A.gif \
-		../../images/_pitcover.gif \
-		../../images/checkboxcap.gif \
-		../../images/advtemple3.jpg \
-		../../images/_advdoor2A.gif \
-		../../images/GauntTitle.gif \
-		../../images/adscreen_restorebutton.png \
-		../../images/_advtemple3.gif \
-		../../images/GauntNextButton.jpg \
-		../../images/_GauntTitle.gif \
-		../../images/advdoor3C.jpg \
-		../../images/GauntBackButton.jpg \
-		../../images/adscreen_buybutton.jpg \
-		../../images/slidertrack.gif \
-		../../images/GauntDoor2.jpg \
-		../../images/cursor_hand.gif \
-		../../images/_gauge.gif \
-		../../images/GauntSUNGEM.gif \
-		../../images/_Menubar.gif \
-		../../images/_advtemple1.gif \
-		../../images/_ballalpha.gif \
-		../../images/_mmGAUNTLETBUTTON.gif \
-		../../images/helpback.jpg \
-		../../images/_GauntDoor4.gif \
-		../../images/_GauntJaguarGem.gif \
-		../../images/advdoor2A.jpg \
-		../../images/advmainmenubutton.jpg \
-		../../images/_advHighscore.gif \
-		../../images/advtemple3v.jpg \
-		../../images/_advdoor2C.gif \
-		../../images/_mmsunglow.jpg \
-		../../images/advmiddle.jpg \
-		../../images/cursor_pointer.gif \
-		../../images/DialogButton.jpg \
-		../../images/baLightRed.gif \
-		../../images/_mmeyemask.gif \
-		../../images/_advdoor3B.gif \
-		../../images/advdoor4B.jpg \
-		../../images/baBallPurple.gif \
-		../../images/baBallYellow.gif \
-		../../images/_GauntDoor2.gif \
-		../../images/p3_advdoor1B.png \
-		../../images/_advdoor2B.gif \
-		../../images/cursor_hand_.gif \
-		../../images/adscreen_skipbutton.png \
-		../../images/advback.jpg \
-		../../images/baBackwardsGreen.gif \
-		../../images/mmARCADEBUTTON.jpg \
-		../../images/grayplosion.gif \
-		../../images/advdoor1B.jpg \
-		../../images/baSlowBlue.gif \
-		../../images/_advTitle.gif \
-		../../images/_advtemple2v.gif \
-		../../images/_GauntSUNGEM.gif \
-		../../images/_LoaderBar.gif \
-		../../images/loadingscreen.jpg \
-		../../images/_SMALLFROGonPAD.gif \
-		../../images/_dialogbox.gif \
-		../../images/_mmMOREGAMESBUTTON.gif \
-		../../images/_MoreGamesScreen.gif \
-		../../images/mmOPTIONSBUTTON.jpg \
-		../../images/checkboxsliver.gif \
-		../../images/baBallBlue.gif \
-		../../images/_GauntMainMenuButton.gif \
-		../../images/_baBackwardsLight.gif \
-		../../images/baBombRed.gif \
-		../../images/levlock_buttons.jpg \
-		../../images/_GauntEagleGem.gif \
-		../../images/_advdoor1C.gif \
-		../../images/mmsky.jpg \
-		../../images/helpfront.jpg \
-		../../images/_mmhat.gif \
-		../../images/advtemple4.jpg \
-		../../images/advdoor1A.jpg \
-		../../images/mmUFO.jpg \
-		../../images/baBombBlue.gif \
-		../../images/advdoor1C.jpg \
-		../../images/_mmQUITBUTTON.gif \
-		../../images/SliderThumb.gif \
-		../../images/mmsun.gif \
-		../../images/_slidertrack.gif \
-		../../images/_GauntHighscore.gif \
-		../../images/_helpfront.gif \
-		../../images/baSlowPurple.gif \
-		../../images/baSlowYellow.gif \
-		../../images/baAccuracyYellow.gif \
-		../../images/GauntPlayButton.jpg \
-		../../images/mmQUITBUTTON.jpg \
-		../../images/mmscreen.jpg \
-		../../images/cursor_dragging_.gif \
-		../../images/baLightWhite.gif \
-		../../images/advdoor2C.jpg \
-		../../images/_checkboxcap.gif \
-		../../images/_mmeyeright.gif \
-		../../images/_GauntNextButton.gif \
-		../../images/levlock_playlabel.jpg \
-		../../images/LoaderBar.gif \
-		../../images/baBackwardsPurple.gif \
-		../../images/_mmeyeleft.gif \
-		../../images/_SliderThumb.gif \
-		../../images/Explosion.gif \
-		../../images/baBackwardsRed.gif \
-		../../images/baBombWhite.gif \
-		../../images/baSlowRed.gif \
-		../../images/baLightGreen.gif \
-		../../images/_GauntDoor1.gif \
-		../../images/advtemple1.jpg \
-		../../images/baAccuracyGreen.gif \
-		../../images/_checkboxsliver.gif \
-		../../images/levlock_buylabel.jpg \
-		../../images/nebula1.jpg \
-		../../images/advtemple2v.jpg \
-		../../images/advsky.jpg \
-		../../images/cursor_pointer_.gif \
-		../../images/_baBomb.gif \
-		../../images/_COIN.gif \
-		../../images/advtemple2.jpg \
-		../../images/gaugegreen.gif \
-		../../images/baSlowWhite.gif \
-		../../images/baBackwardsWhite.gif \
-		../../images/_Tongue.gif \
-		../../images/baBackwardsYellow.gif \
-		../../images/gauntpracticebutton.jpg \
-		../../images/_GauntDoor3.gif \
-		../../images/SMALLFROGonPAD.gif \
-		../../images/baBallRed.gif \
-		../../images/_advdoor3C.gif \
-		../../images/_advdoor4A.gif \
-		../../images/advHighscore.gif \
-		../../images/GauntDoor3.jpg \
-		../../images/cursor_text.gif \
-		../../images/adscreen_backdrop.jpg \
-		../../images/baBackwardsBlue.gif \
-		../../images/EYEBLINK.gif \
-		../../images/levlock_background.jpg \
-		../../images/mmeyeleft.gif \
-		../../images/Hole.gif \
-		../../images/_advback.gif \
-		../../images/GauntHighscore.gif \
-		../../images/_Hole.gif \
-		../../images/pitcover.gif \
-		../../images/_Menubutton.gif \
-		../../images/levlock_buylabel_.gif \
-		../../images/_advdoor4B.gif \
-		../../images/_baSlowLight.gif \
-		../../images/advtitle.jpg \
-		../../images/tut_mouse_r.jpg \
-		../../images/_gauntsurvivalbutton.gif \
-		../../images/_mmscreen.jpg \
-		../../images/advstage.gif \
-		../../images/MoreGamesButton.gif \
-		../../images/gauntsky.jpg \
-		../../images/MoreGamesScreen.jpg \
-		../../images/tut_mouse_r_.jpg \
-		../../images/_advmainmenubutton.gif \
-		../../images/_gauntpracticebutton.gif \
-		../../images/waitbar.gif \
-		../../images/_grayplosion.gif \
-		../../images/_advdoor4C.gif
+		processed/sunFace_4.png
 	E:\Qt\6.5.1\mingw_64\bin\rcc.exe -name images --no-zstd images.qrc -o release\qrc_images.cpp
 
 compiler_moc_predefs_make_all: release/moc_predefs.h
@@ -1047,6 +831,7 @@ release/moc_menu.cpp: menu.h \
 		E:/Qt/6.5.1/mingw_64/include/QtCore/QSizeF \
 		E:/Qt/6.5.1/mingw_64/include/QtGui/QTransform \
 		E:/Qt/6.5.1/mingw_64/include/QtCore/qnativeinterface.h \
+		E:/Qt/6.5.1/mingw_64/include/QtGui/QIcon \
 		release/moc_predefs.h \
 		E:/Qt/6.5.1/mingw_64/bin/moc.exe
 	E:\Qt\6.5.1\mingw_64\bin\moc.exe $(DEFINES) --include D:/PKU/tmp/qtTest/test5/release/moc_predefs.h -IE:/Qt/6.5.1/mingw_64/mkspecs/win32-g++ -ID:/PKU/tmp/qtTest/test5 -IE:/Qt/6.5.1/mingw_64/include -IE:/Qt/6.5.1/mingw_64/include/QtWidgets -IE:/Qt/6.5.1/mingw_64/include/QtGui -IE:/Qt/6.5.1/mingw_64/include/QtCore -IE:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IE:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IE:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IE:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IE:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IE:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include menu.h -o release\moc_menu.cpp
@@ -1273,7 +1058,9 @@ release/adventuremenu.o: adventuremenu.cpp adventuremenu.h \
 		E:/Qt/6.5.1/mingw_64/include/QtWidgets/QPushButton \
 		E:/Qt/6.5.1/mingw_64/include/QtWidgets/qpushbutton.h \
 		E:/Qt/6.5.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		menu.h
+		menu.h \
+		E:/Qt/6.5.1/mingw_64/include/QtGui/QIcon \
+		level1.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\adventuremenu.o adventuremenu.cpp
 
 release/cball.o: cball.cpp cball.h \
@@ -1638,7 +1425,8 @@ release/gauntmenu.o: gauntmenu.cpp gauntmenu.h \
 		E:/Qt/6.5.1/mingw_64/include/QtWidgets/QPushButton \
 		E:/Qt/6.5.1/mingw_64/include/QtWidgets/qpushbutton.h \
 		E:/Qt/6.5.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		menu.h
+		menu.h \
+		E:/Qt/6.5.1/mingw_64/include/QtGui/QIcon
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\gauntmenu.o gauntmenu.cpp
 
 release/level1.o: level1.cpp level1.h \
@@ -1799,7 +1587,46 @@ release/level1.o: level1.cpp level1.h \
 		E:/Qt/6.5.1/mingw_64/include/QtCore/QSizeF \
 		E:/Qt/6.5.1/mingw_64/include/QtGui/QTransform \
 		E:/Qt/6.5.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_level1.h
+		ui_level1.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/QVariant \
+		E:/Qt/6.5.1/mingw_64/include/QtWidgets/QApplication \
+		E:/Qt/6.5.1/mingw_64/include/QtWidgets/qapplication.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qcoreapplication.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qeventloop.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qfuture.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qfutureinterface.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qmutex.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qtsan_impl.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qresultstore.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qfuture_impl.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qthreadpool.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qthread.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qrunnable.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qexception.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qpromise.h \
+		E:/Qt/6.5.1/mingw_64/include/QtGui/qguiapplication.h \
+		E:/Qt/6.5.1/mingw_64/include/QtGui/qinputmethod.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qlocale.h \
+		E:/Qt/6.5.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		E:/Qt/6.5.1/mingw_64/include/QtWidgets/QFrame \
+		E:/Qt/6.5.1/mingw_64/include/QtWidgets/qframe.h \
+		E:/Qt/6.5.1/mingw_64/include/QtWidgets/QPushButton \
+		E:/Qt/6.5.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		E:/Qt/6.5.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+		adventuremenu.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qtimer.h \
+		E:/Qt/6.5.1/mingw_64/include/QtCore/qbasictimer.h \
+		E:/Qt/6.5.1/mingw_64/include/QtGui/qpainter.h \
+		E:/Qt/6.5.1/mingw_64/include/QtGui/qtextoption.h \
+		E:/Qt/6.5.1/mingw_64/include/QtGui/qpen.h \
+		cfrog.h \
+		cpoint.h \
+		cball.h \
+		cpath.h \
+		E:/Qt/6.5.1/mingw_64/include/QtGui/QMouseEvent
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\level1.o level1.cpp
 
 release/main.o: main.cpp menu.h \
@@ -1960,6 +1787,7 @@ release/main.o: main.cpp menu.h \
 		E:/Qt/6.5.1/mingw_64/include/QtCore/QSizeF \
 		E:/Qt/6.5.1/mingw_64/include/QtGui/QTransform \
 		E:/Qt/6.5.1/mingw_64/include/QtCore/qnativeinterface.h \
+		E:/Qt/6.5.1/mingw_64/include/QtGui/QIcon \
 		E:/Qt/6.5.1/mingw_64/include/QtWidgets/QApplication \
 		E:/Qt/6.5.1/mingw_64/include/QtWidgets/qapplication.h \
 		E:/Qt/6.5.1/mingw_64/include/QtCore/qcoreapplication.h \
@@ -2142,6 +1970,7 @@ release/menu.o: menu.cpp menu.h \
 		E:/Qt/6.5.1/mingw_64/include/QtCore/QSizeF \
 		E:/Qt/6.5.1/mingw_64/include/QtGui/QTransform \
 		E:/Qt/6.5.1/mingw_64/include/QtCore/qnativeinterface.h \
+		E:/Qt/6.5.1/mingw_64/include/QtGui/QIcon \
 		ui_menu.h \
 		E:/Qt/6.5.1/mingw_64/include/QtCore/QVariant \
 		E:/Qt/6.5.1/mingw_64/include/QtWidgets/QApplication \

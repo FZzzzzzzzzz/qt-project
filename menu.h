@@ -2,6 +2,7 @@
 #define MENU_H
 
 #include <QWidget>
+#include <QIcon>
 
 namespace Ui {
 class Menu;

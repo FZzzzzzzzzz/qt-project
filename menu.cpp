@@ -12,7 +12,11 @@ Menu::Menu(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    QPixmap pixmap(":/images/mmscreen.jpg");
+    QIcon icon1(":processed/icon1.png");
+    this->setWindowIcon(icon1);
+    this->setWindowTitle("zuma");
+
+    QPixmap pixmap(":processed/mmscreen.jpg");
     QPalette palette;
     palette.setBrush(backgroundRole(), QBrush(pixmap));
     setPalette(palette);

@@ -23,6 +23,8 @@ public:
     QFrame *frame1;
     QFrame *frame_2;
     QPushButton *btnMenubar;
+    QPushButton *sunCover;
+    QPushButton *sunFace;
 
     void setupUi(QWidget *level1)
     {
@@ -31,21 +33,28 @@ public:
         level1->resize(640, 480);
         level1->setMinimumSize(QSize(640, 480));
         level1->setMaximumSize(QSize(640, 480));
+        level1->setStyleSheet(QString::fromUtf8("#level1{background-image: url(:/processed/background_level1.jpg);}"));
         frame1 = new QFrame(level1);
         frame1->setObjectName("frame1");
         frame1->setGeometry(QRect(0, 0, 640, 480));
-        frame1->setStyleSheet(QString::fromUtf8("#frame1{background-image: url(:/processed/background_level1.jpg);}"));
+        frame1->setStyleSheet(QString::fromUtf8("#frame1{border-image: url(:/processed/backgroundLevel1_full.png);}"));
         frame1->setFrameShape(QFrame::StyledPanel);
         frame1->setFrameShadow(QFrame::Raised);
         frame_2 = new QFrame(frame1);
         frame_2->setObjectName("frame_2");
-        frame_2->setGeometry(QRect(-1, -1, 641, 481));
-        frame_2->setStyleSheet(QString::fromUtf8("#frame_2{background-image: url(:/processed/menubar.png);}"));
+        frame_2->setGeometry(QRect(0, 0, 640, 480));
+        frame_2->setStyleSheet(QString::fromUtf8(""));
         frame_2->setFrameShape(QFrame::StyledPanel);
         frame_2->setFrameShadow(QFrame::Raised);
         btnMenubar = new QPushButton(frame_2);
         btnMenubar->setObjectName("btnMenubar");
         btnMenubar->setGeometry(QRect(540, 0, 80, 18));
+        sunCover = new QPushButton(frame_2);
+        sunCover->setObjectName("sunCover");
+        sunCover->setGeometry(QRect(72, 190, 21, 20));
+        sunFace = new QPushButton(frame_2);
+        sunFace->setObjectName("sunFace");
+        sunFace->setGeometry(QRect(72, 190, 21, 20));
 
         retranslateUi(level1);
 
@@ -56,6 +65,8 @@ public:
     {
         level1->setWindowTitle(QCoreApplication::translate("level1", "Form", nullptr));
         btnMenubar->setText(QString());
+        sunCover->setText(QString());
+        sunFace->setText(QString());
     } // retranslateUi
 
 };
