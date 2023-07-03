@@ -2,6 +2,7 @@
 #include "ui_menu.h"
 #include "adventuremenu.h"
 #include "gauntmenu.h"
+#include "option.h"
 #include "qpixmap.h"
 #include "qbitmap.h"
 #include "qpalette.h"
@@ -120,7 +121,9 @@ void Menu::on_btnOptions_pressed()
 void Menu::on_btnOptions_released()
 {
     ui->btnOptions->setStyleSheet("background: transparent;background-image: url(:processed/mmOPTIONSBUTTON_preview_rev_1.png);");
-
+    Option* opt;
+    opt = new Option;
+    opt->show();
 }
 
 

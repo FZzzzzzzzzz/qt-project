@@ -17,7 +17,8 @@ SOURCES += \
     gauntmenu.cpp \
     level1.cpp \
     main.cpp \
-    menu.cpp
+    menu.cpp \
+    option.cpp
 
 HEADERS += \
     adventuremenu.h \
@@ -27,13 +28,15 @@ HEADERS += \
     cpoint.h \
     gauntmenu.h \
     level1.h \
-    menu.h
+    menu.h \
+    option.h
 
 FORMS += \
     adventuremenu.ui \
     gauntmenu.ui \
     level1.ui \
-    menu.ui
+    menu.ui \
+    option.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -7,8 +7,10 @@ release/gauntmenu.o
 release/level1.o
 release/main.o
 release/menu.o
+release/option.o
 release/qrc_images.o
 release/moc_adventuremenu.o
 release/moc_gauntmenu.o
 release/moc_level1.o
 release/moc_menu.o
+release/moc_option.o
