@@ -17,7 +17,7 @@ double getAngle(int x_tmp, int y_tmp){
     QPointF MousePt;
     MousePt = QCursor::pos();
     double tmp = std::atan2((MousePt.y()-y_tmp+11-54),(MousePt.x()-x_tmp+47-54));
-    double Angle= tmp*180/3.141592;
+    double Angle= (tmp*180-270)/3.141592;
     return Angle;
 }
 
@@ -29,9 +29,9 @@ bool level1::eventFilter(QObject *watched, QEvent *event)
         QPixmap pix;
         pix.load(":processed/frog.png");
         QRect rectLevel1 = this->geometry();
-        painter.translate(320,240);
+        painter.translate(320+5,240+44);
         painter.rotate(getAngle(rectLevel1.center().x(),rectLevel1.center().y()));
-        painter.drawPixmap(47-108,11-108+54,108,108,pix);
+        painter.drawPixmap(-54,-54,108,108,pix);
     }
     return QWidget::eventFilter(watched,event);
 }
